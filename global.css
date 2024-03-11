@@ -1,6 +1,17 @@
+body,
+html, body > div:first-child,
+div#__next,
+div#__next > div
+{
+    height: 100%;
+}
+
+
+
 .overflow {
     height: 50%;
-    overflow: hidden;
+    aspect-ratio: 3 / 2; /* Example aspect ratio (3:2) */
+    overflow: hidden; /* Clip overflow if needed */
 }
 
 .overflow .card-img-top{
@@ -15,6 +26,11 @@
     transform: scale(1.8);
 
 }
+
+.overflow img {
+    object-fit: cover; /* Fills the container, maintaining aspect ratio */
+}
+
 
 #nprogress .bar {
     background: #ff5367 !important;

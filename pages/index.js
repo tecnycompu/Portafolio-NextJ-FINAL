@@ -15,16 +15,16 @@ const Index = () => (
                         <div className="col-md-4 d-flex">
                             <img
                                 src="/perfil.jpg"
-                                alt="Javier Moràn profile picture"
+                                alt="Javier Alfonso Morán Rodríguez profile picture"
                                 className="img-fluid align-self-center"
                                 style={{ maxWidth: "50%" }}
                             />
                         </div>
                         <div className="col-md-8">
-                            <h1>Javier Morán</h1>
+                            <h1>Javier Alfonso Morán Rodríguez</h1>
                             <h3>FullStack Developer</h3>
                             <p>Support TI And Developer: Java, C#, Python, HTML, CSS, JS, SQL Server, MySQL, MongoDB, PHP, RAZOR. ASP.NET, Node.js, Angular, Joomla, WordPress, Moodle.</p>
-                            <a href="/Hire me">Hire me</a>
+                            <a href="/Hire me">Contrátame</a>
                         </div>
 
                     </div>
@@ -107,7 +107,7 @@ const Index = () => (
                                         <div className="card body">
                                             <h3>{name}</h3>
                                             <p>{description}</p>
-                                            <a href="#!">Know more</a>
+                                            <a href="#!">Saber más</a>
                                         </div>
                                     </div>
                                 </div>

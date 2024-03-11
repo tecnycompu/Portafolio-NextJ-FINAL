@@ -9,7 +9,7 @@ const Github = ({ user, statusCode }) => {
 
     }
     return (
-        <Layaut footer={false}>
+        <Layaut footer={false} dark>
             <div class="row">
                 <div className="col-md-4 offset-md-4">
                     <div className="card card-body text-center">
