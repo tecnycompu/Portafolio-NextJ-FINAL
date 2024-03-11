@@ -30,5 +30,5 @@ Install my-project with npm
     
 ## Screenshots
 
-![App Screenshot](demo.jpg/468x300?text=App+Screenshot+Here)
+![App Screenshot](./public/demo.jpg/468x300?text=App+Screenshot+Here)
 
